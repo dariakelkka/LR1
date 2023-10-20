@@ -140,6 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LR1.cpp" />
+    <ClCompile Include="menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib.h" />
+    <ClInclude Include="menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
