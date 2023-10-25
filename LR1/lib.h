@@ -6,7 +6,12 @@
 #include <cstdlib>
 #include <string>
 #include <fstream>
-#include <menu.h>
+#include "menu.h"
+#include "Bibliary.h"
+#include "Books.h"
+#include "Textbook.h"
+#include "Canselar.h"
+#include "Keeper.h"
 
 
 #endif

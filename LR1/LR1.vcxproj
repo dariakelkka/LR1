@@ -139,12 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="books.cpp" />
+    <ClCompile Include="canselar.cpp" />
     <ClCompile Include="LR1.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="textbook.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bibliary.h" />
+    <ClInclude Include="books.h" />
+    <ClInclude Include="canselar.h" />
     <ClInclude Include="lib.h" />
     <ClInclude Include="menu.h" />
+    <ClInclude Include="textbook.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
